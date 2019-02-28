@@ -1,0 +1,30 @@
+{
+  "name": "fre-resume",
+  "version": "1.0.0",
+  "description": "姓名：赵昌浩\r 网名：伊撒尔，简称 132\r 性别：♂ \r 年龄：20\r 毕业院校：北海艺术学院",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/132yse/fre-resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/132yse/fre-resume/issues"
+  },
+  "homepage": "https://github.com/132yse/fre-resume#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/plugin-transform-react-jsx": "^7.2.0",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "dependencies": {
+    "fre": "^1.0.0-beta3"
+  }
+}
