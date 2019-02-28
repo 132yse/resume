@@ -616,7 +616,17 @@ function Left() {
     class: "iconfont icon-youxiang"
   }), "\u90AE\u7BB1\uFF1A1533540012@qq.com"))), (0, _fre.h)("div", {
     class: "link"
-  }, (0, _fre.h)("h2", null, "\u4F5C\u54C1\u94FE\u63A5"))));
+  }, (0, _fre.h)("h2", null, "\u4F5C\u54C1\u94FE\u63A5"), (0, _fre.h)("ul", null, (0, _fre.h)("li", null, (0, _fre.h)("i", {
+    class: "iconfont icon-github"
+  }), (0, _fre.h)("a", {
+    href: "https://github.com/132yse",
+    target: "_blank"
+  }, "\u5F00\u6E90\u4F5C\u54C1")), (0, _fre.h)("li", null, (0, _fre.h)("i", {
+    class: "iconfont icon-lofter"
+  }), (0, _fre.h)("a", {
+    href: "http://caowoa.lofter.com",
+    target: "_blank"
+  }, "\u8BBE\u8BA1\u4F5C\u54C1"))))));
 }
 
 function Right() {
@@ -677,7 +687,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58112" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64280" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

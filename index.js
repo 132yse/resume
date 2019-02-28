@@ -13,7 +13,7 @@ function Left() {
   return (
     <div class="left">
       <div class="logo">
-        <img src='https://tvax4.sinaimg.cn/crop.0.78.1422.1422.180/0065Zy9ely8fve0dvwdwnj31401z4b29.jpg' />
+        <img src="https://tvax4.sinaimg.cn/crop.0.78.1422.1422.180/0065Zy9ely8fve0dvwdwnj31401z4b29.jpg" />
         <div class="name">
           <h1> 赵昌浩 </h1>
           <h3>求职意向：web 前端</h3>
@@ -40,6 +40,16 @@ function Left() {
         </div>
         <div class="link">
           <h2>作品链接</h2>
+          <ul>
+            <li>
+              <i class="iconfont icon-github" />
+              <a href="https://github.com/132yse" target='_blank'>开源作品</a>
+            </li>
+            <li>
+              <i class="iconfont icon-lofter" />
+              <a href="http://caowoa.lofter.com" target='_blank'>设计作品</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -157,10 +167,12 @@ function Right() {
         </h1>
         <ul class="common">
           <li>
-            <span>热爱开源</span>，喜欢前端基础建设，也一直为此而努力，同时写大量业务支撑基建
+            <span>热爱开源</span>
+            ，喜欢前端基础建设，也一直为此而努力，同时写大量业务支撑基建
           </li>
           <li>
-            性格上比较脱线，还不够严谨，仍需不断修炼。但对待技术认真，有靠谱的判断力，会<span>按需</span>做出妥协与调整
+            性格上比较脱线，还不够严谨，仍需不断修炼。但对待技术认真，有靠谱的判断力，会
+            <span>按需</span>做出妥协与调整
           </li>
           <li>
             我不太爱钱，有超强的<span>熬夜</span>能力
