@@ -2,20 +2,67 @@
   margin: 0;
   padding: 0;
 }
+li {
+  list-style: none;
+}
 body {
   background: #405e6e;
+  font: 14px 黑体;
+  color: #465b86;
+}
+.iconfont {
+  background: #465b86;
+  border-radius: 50%;
+  padding: 4px;
+  margin-right: 10px;
+  color: #fff;
 }
 .container {
   height: 80vh;
-  width: 1000px;
+  width: 1024px;
   background: #fff;
   margin: 30px auto;
+  display: flex;
 }
 
 .left {
-  background: #2c353a;
-  color: #fff;
+  flex: 1;
+  font-weight: bold;
+  background: #e8e9ee;
   width: 250px;
   display: inline-block;
-  height: 100%
+  height: 100%;
+  text-align: center;
+}
+
+.logo img {
+  border-radius: 50%;
+  margin-top: 80px;
+}
+
+.left .name {
+  margin-top: 20px;
+  padding: 20px;
+  color: #fff;
+  background: #465d7f;
+}
+
+.left .info {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: left;
+}
+
+.info ul li {
+  padding: 10px;
+}
+
+.right {
+  flex: 3;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.right section{
+  padding-bottom: 20px;
 }
