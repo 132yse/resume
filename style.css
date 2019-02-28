@@ -129,5 +129,6 @@ section li {
   height: 42px;
   width: 40px;
   background: none;
+  margin-left:-10px;
   color: #465b86
 }
