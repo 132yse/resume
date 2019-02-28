@@ -589,10 +589,6 @@ require("./style.css");
 
 var _fre = require("fre");
 
-var config = {
-  avatar: 'https://tvax4.sinaimg.cn/crop.0.78.1422.1422.180/0065Zy9ely8fve0dvwdwnj31401z4b29.jpg'
-};
-
 function App() {
   return (0, _fre.h)("div", {
     class: "container"
@@ -605,7 +601,7 @@ function Left() {
   }, (0, _fre.h)("div", {
     class: "logo"
   }, (0, _fre.h)("img", {
-    src: config.avatar
+    src: "https://tvax4.sinaimg.cn/crop.0.78.1422.1422.180/0065Zy9ely8fve0dvwdwnj31401z4b29.jpg"
   }), (0, _fre.h)("div", {
     class: "name"
   }, (0, _fre.h)("h1", null, " \u8D75\u660C\u6D69 "), (0, _fre.h)("h3", null, "\u6C42\u804C\u610F\u5411\uFF1Aweb \u524D\u7AEF")), (0, _fre.h)("div", {
@@ -618,17 +614,39 @@ function Left() {
     class: "iconfont icon-dianhua"
   }), "\u7535\u8BDD\uFF1A18593996744"), (0, _fre.h)("li", null, (0, _fre.h)("i", {
     class: "iconfont icon-youxiang"
-  }), "\u90AE\u7BB1\uFF1A1533540012@qq.com")))));
+  }), "\u90AE\u7BB1\uFF1A1533540012@qq.com"))), (0, _fre.h)("div", {
+    class: "link"
+  }, (0, _fre.h)("h2", null, "\u4F5C\u54C1\u94FE\u63A5"))));
 }
 
 function Right() {
   return (0, _fre.h)("div", {
     class: "right"
   }, (0, _fre.h)("section", {
-    class: "edu"
+    class: "section"
   }, (0, _fre.h)("h1", null, (0, _fre.h)("i", {
     class: "iconfont icon-jiaoyu"
-  }), "\u6559\u80B2\u80CC\u666F"), (0, _fre.h)("p", null, (0, _fre.h)("h3", null, "2016.09\u2014\u20142020.06 \u5317\u6D77\u827A\u672F\u8BBE\u8BA1\u5B66\u9662 \u52A8\u753B\u4E13\u4E1A \u4E8C\u672C"), (0, _fre.h)("ul", null, (0, _fre.h)("li", null, "2016 \u5E74\u52A0\u5165 \xB7\u5E73\u884C\u4E16\u754C\u5DE5\u4F5C\u5BA4\xB7"), (0, _fre.h)("li", null, "2017 \u5E74\uFF0C\u53C2\u4E0E\u5236\u4F5C\u7684\u300A\u7435\u7436\u884C\u300B\u3001\u300A\u79BB\u9A9A\u300B\u7B49\uFF0C\u591A\u6B21\u70ED\u641C\uFF0C\u8363\u767B\u73AF\u7403\u65F6\u62A5\u3001\u4EBA\u6C11\u65E5\u62A5\u7B49\u5404\u5927\u62A5\u520A"), (0, _fre.h)("li", null, "2018 \u5E74\uFF0C\u300A\u900D\u9065\u6E38\u300B\u53D1\u5E03\uFF0C\u300A\u7435\u7436\u884C\u300B\u8363\u767B\u592E\u89C6\uFF0C\u7531\u65B9\u9526\u9F99\u5148\u751F\u594F\u4E50\uFF0C\u4EFB\u5609\u4F26\u7FFB\u5531"), (0, _fre.h)("li", null, "2019 \u5E74\uFF0C\u300A\u7435\u7436\u884C\u300B\u6296\u97F3\u7B49\u5E73\u53F0\u9AD8\u4F4D\u4E0D\u4E0B")))));
+  }), "\u6821\u56ED\u5B9E\u8DF5"), (0, _fre.h)("p", null, (0, _fre.h)("h3", null, "2016.09\u2014\u20142020.06 \u5317\u6D77\u827A\u672F\u8BBE\u8BA1\u5B66\u9662 \u52A8\u753B\u4E13\u4E1A \u4E8C\u672C"), (0, _fre.h)("ul", null, (0, _fre.h)("li", null, "2016 \u5E74\u52A0\u5165 \xB7\u5E73\u884C\u4E16\u754C\u5DE5\u4F5C\u5BA4\xB7"), (0, _fre.h)("li", null, "2017 \u5E74\uFF0C\u53C2\u4E0E\u5236\u4F5C\u7684\u300A\u7435\u7436\u884C\u300B\u3001\u300A\u79BB\u9A9A\u300B\u7B49\uFF0C\u591A\u6B21\u70ED\u641C\uFF0C\u8363\u767B\u73AF\u7403\u65F6\u62A5\u3001\u4EBA\u6C11\u65E5\u62A5\u7B49\u5404\u5927\u62A5\u520A"), (0, _fre.h)("li", null, "2018 \u5E74\uFF0C\u300A\u900D\u9065\u6E38\u300B\u53D1\u5E03\uFF0C\u300A\u7435\u7436\u884C\u300B\u8363\u767B\u592E\u89C6\uFF0C\u7531\u65B9\u9526\u9F99\u5148\u751F\u594F\u4E50\uFF0C\u4EFB\u5609\u4F26\u7FFB\u5531")))), (0, _fre.h)("section", {
+    class: "section"
+  }, (0, _fre.h)("h1", null, (0, _fre.h)("i", {
+    class: "iconfont icon-gongzuoliu"
+  }), "\u9879\u76EE\u7ECF\u9A8C"), (0, _fre.h)("p", null, (0, _fre.h)("h3", null, "2018.06\u2014\u2014 clicli\u5F39\u5E55\u7F51\uFF08c\u7AD9\uFF09 \u4E2A\u4EBA\u9879\u76EE"), (0, _fre.h)("ul", null, (0, _fre.h)("li", null, "\u5168\u6808\uFF0CB \u7AEF vue \uFF0CC \u7AEF react\uFF0C\u540E\u7AEF golang + node"), (0, _fre.h)("li", null, "\u6211\u7684\u5F00\u6E90\u9879\u76EE smox\u3001fre\u3001ep \u7B49\uFF0C\u90FD\u5F97\u5230\u4E86\u5927\u89C4\u6A21\u5E94\u7528"))), (0, _fre.h)("p", null, (0, _fre.h)("h3", null, "2017.06\u2014\u20142017.08 \u5317\u4EAC\u65E0\u7EF4\u79D1\u6280 web \u524D\u7AEF"), (0, _fre.h)("ul", null, (0, _fre.h)("li", null, "vue \u6808\uFF0C\u8D1F\u8D23\u5F00\u53D1\u300A\u5FAE\u4FE1\u7F16\u8F91\u5668\u300B\uFF0C\u53C2\u8003\u6709\u8D5E\u3001\u79C0\u7C73"))), (0, _fre.h)("p", null, (0, _fre.h)("h3", null, "2018.06\u2014\u20142018.08 \u5317\u4EAC\u5448\u5929\u6E38\u620F web \u524D\u7AEF"), (0, _fre.h)("ul", null, (0, _fre.h)("li", null, "react \u6808\uFF0C\u8D1F\u8D23 pwa \u76F8\u5173"), (0, _fre.h)("li", null, "\u7A9D\u7684\u5F00\u6E90\u9879\u76EE smox \u5F97\u5230\u5E94\u7528\uFF0C\u914D\u5408\u91CD\u6784\uFF0C\u4F7F\u539F\u9879\u76EE\u66F4\u6613\u7EF4\u62A4")))), (0, _fre.h)("section", {
+    class: "section"
+  }, (0, _fre.h)("h1", null, (0, _fre.h)("i", {
+    class: "iconfont icon-github"
+  }), "\u5F00\u6E90\u8D21\u732E"), (0, _fre.h)("p", null, (0, _fre.h)("h3", null, "fre.js - \u53C8\u4E00\u4E2A\u5C0F\u800C\u7F8E\u7684\u524D\u7AEF AOP \u6846\u67B6"), (0, _fre.h)("ul", null, (0, _fre.h)("li", null, "\u53D7 react hooks API \u542F\u53D1\uFF0Cfre \u662F\u53EA\u6709 hooks \u7684 AOP \u6846\u67B6"), (0, _fre.h)("li", null, "\u4E16\u4E0A\u5C11\u6709\u7684 fiber \u8C03\u5EA6\u7684\u6846\u67B6\uFF0Cfre \u7684 fiber \u5B9E\u73B0\u4E5F\u662F\u6700\u5C0F\u800C\u7F8E\u7684"), (0, _fre.h)("li", null, "\u60A8\u73B0\u5728\u6240\u770B\u5230\u7684\u7B80\u5386\uFF0C\u5C31\u662F\u57FA\u4E8E fre \u6784\u5EFA\u7684"))), (0, _fre.h)("p", null, (0, _fre.h)("h3", null, "smox - react \u72B6\u6001\u7BA1\u7406\u9876\u7EA7\u8BBE\u8BA1"), (0, _fre.h)("ul", null, (0, _fre.h)("li", null, "smox \u662F react \u72B6\u6001\u7BA1\u7406\u9876\u7EA7\u8BBE\u8BA1\uFF0C\u5B83\u7684\u5C01\u88C5\u6781\u4E3A\u7CBE\u5DE7\u5374\u5F3A\u5927"), (0, _fre.h)("li", null, "\u72EC\u521B path \u673A\u5236\uFF0C\u80FD\u591F\u7CBE\u51C6\u3001\u6700\u5C0F\u7684\u66F4\u65B0\u72B6\u6001"), (0, _fre.h)("li", null, "\u652F\u6301\u5FAE\u4FE1\u5C0F\u7A0B\u5E8F setData \u65F6\u4F20\u5165\u7684 path"))), (0, _fre.h)("p", null, (0, _fre.h)("h3", null, "eplayer - \u9762\u5411\u672A\u6765\u7684\u89C6\u9891\u64AD\u653E\u5668"), (0, _fre.h)("ul", null, (0, _fre.h)("li", null, "eplayer \u662F\u57FA\u4E8E web-component \u7684\u89C6\u9891\u64AD\u653E\u5668"), (0, _fre.h)("li", null, "\u5929\u751F\u81EA\u5E26 shadow-dom \u548C scoped css\uFF0C\u53EF\u4EE5\u4F7F\u5F97\u64AD\u653E\u5668\u63A5\u5165\u7F51\u7AD9\u800C\u4E0D\u53D7\u5916\u754C\u73AF\u5883\u5E72\u6270")))), (0, _fre.h)("section", {
+    class: "section"
+  }, (0, _fre.h)("h1", null, (0, _fre.h)("i", {
+    class: "iconfont icon-gongju"
+  }), "\u4E13\u4E1A\u6280\u80FD"), (0, _fre.h)("ul", {
+    class: "common"
+  }, (0, _fre.h)("li", null, (0, _fre.h)("span", null, "\u5F00\u53D1\uFF1A"), "\u719F\u7EC3 vue\u3001react\u3001node\u3001golang \u7B49\u6280\u672F\u6808"), (0, _fre.h)("li", null, (0, _fre.h)("span", null, "\u8BBE\u8BA1\uFF1A"), "\u719F\u7EC3\u4F7F\u7528 ps\u3001ae\u3001maya \u7B49\u8BBE\u8BA1\u8F6F\u4EF6"), (0, _fre.h)("li", null, (0, _fre.h)("span", null, "\u6E90\u7801\uFF1A"), "\u719F\u6089 preact \u6E90\u7801\uFF0C\u4E86\u89E3 vue\u3001react \u90E8\u5206\u6E90\u7801"), (0, _fre.h)("li", null, (0, _fre.h)("span", null, "\u5F00\u6E90\uFF1A"), "\u53C2\u4E0E Omi\uFF08\u817E\u8BAF\u524D\u7AEF\u6846\u67B6\uFF09\u3001gatsby\uFF08facebook\uFF09\u7B49\u5F00\u6E90\u9879\u76EE"))), (0, _fre.h)("section", {
+    class: "section"
+  }, (0, _fre.h)("h1", null, (0, _fre.h)("i", {
+    class: "iconfont icon-pingjia"
+  }), "\u81EA\u6211\u8BC4\u4EF7"), (0, _fre.h)("ul", {
+    class: "common"
+  }, (0, _fre.h)("li", null, (0, _fre.h)("span", null, "\u70ED\u7231\u5F00\u6E90"), "\uFF0C\u559C\u6B22\u524D\u7AEF\u57FA\u7840\u5EFA\u8BBE\uFF0C\u4E5F\u4E00\u76F4\u4E3A\u6B64\u800C\u52AA\u529B\uFF0C\u540C\u65F6\u5199\u5927\u91CF\u4E1A\u52A1\u652F\u6491\u57FA\u5EFA"), (0, _fre.h)("li", null, "\u6027\u683C\u4E0A\u6BD4\u8F83\u8131\u7EBF\uFF0C\u8FD8\u4E0D\u591F\u4E25\u8C28\uFF0C\u4ECD\u9700\u4E0D\u65AD\u4FEE\u70BC\u3002\u4F46\u5BF9\u5F85\u6280\u672F\u8BA4\u771F\uFF0C\u6709\u9760\u8C31\u7684\u5224\u65AD\u529B\uFF0C\u4F1A", (0, _fre.h)("span", null, "\u6309\u9700"), "\u505A\u51FA\u59A5\u534F\u4E0E\u8C03\u6574"), (0, _fre.h)("li", null, "\u6211\u4E0D\u592A\u7231\u94B1\uFF0C\u6709\u8D85\u5F3A\u7684", (0, _fre.h)("span", null, "\u71AC\u591C"), "\u80FD\u529B"))));
 }
 
 (0, _fre.render)((0, _fre.h)(App, null), document.getElementById('root'));
@@ -659,7 +677,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65179" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58112" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

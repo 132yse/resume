@@ -9,6 +9,7 @@ body {
   background: #405e6e;
   font: 14px 黑体;
   color: #465b86;
+  line-height: 1.2;
 }
 .iconfont {
   background: #465b86;
@@ -18,21 +19,20 @@ body {
   color: #fff;
 }
 .container {
-  height: 80vh;
-  width: 1024px;
-  background: #fff;
+  width: 1000px;
+  background: #e8e9ee;
   margin: 30px auto;
   display: flex;
 }
 
 .left {
-  flex: 1;
+  flex: 2;
   font-weight: bold;
-  background: #e8e9ee;
   width: 250px;
   display: inline-block;
   height: 100%;
   text-align: center;
+  height: 100%
 }
 
 .logo img {
@@ -58,11 +58,51 @@ body {
 }
 
 .right {
-  flex: 3;
-  padding: 20px;
-  margin-top: 60px;
+  flex: 5;
+  padding: 20px 50px 50px 20px;
+  padding-top: 60px;
+  background: #fff
 }
 
-.right section{
+.right section {
   padding-bottom: 20px;
+}
+
+section h1 {
+  padding: 20px 0;
+}
+
+section h3{
+  padding: 4px 0;
+  margin-left: 10px
+}
+
+section li {
+  padding: 2px;
+  list-style: square;
+  margin-left: 25px;
+  color: #333
+}
+
+.common li{
+  list-style: none;
+  margin-left: 10px
+}
+
+.common li span{
+  font-weight: bold;
+  color:  #465b86;
+}
+
+.link{
+  margin-top: 30px
+}
+
+.link h2{
+  background: #fff;
+  border: 1px solid #465b86;
+  display: inline-block;
+  font-size: 16px;
+  padding: 5px 20px;
+  border-radius: 10px 0 10px 0
 }
