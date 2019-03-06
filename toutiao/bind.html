@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>手写 bind</title>
+  </head>
+  <body>
+    <script>
+      function foo() {
+        console.log(this) //{name:'yse'}
+      }
+
+      let obj = { name: 'yse' }
+
+      let boo = foo.bind(obj)
+
+      boo()
+
+      Function.prototype.bind = function(props) {
+        let self = this
+        let args = Array.prototype.slice.call(arguments, 1)
+        return function() {
+          return self.apply(
+            args.concat(props, Array.prototype.slice.call(arguments))
+          )
+        }
+      }
+    </script>
+  </body>
+</html>

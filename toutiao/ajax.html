@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>手写 ajax</title>
+  </head>
+  <body>
+    <script>
+      function ajax(config, cb) {
+        let xhr = new XMLHttpRequest()
+        xhr.open(config.method, config.url, true)
+        xhr.send(config.data)
+
+        xhr.onreadystatechange = function() {
+          if (xhr.readyState === 4 && xhr.status === 200) {
+            let res =
+              config.type === 'json'
+                ? JSON.parse(xhr.responseText)
+                : xhr.responseText
+            cb(res)
+          }
+        }
+      }
+
+      ajax(
+        {
+          method: 'get',
+          url: 'http://a.itying.com/api/productlist',
+          data: {},
+          type: 'json'
+        },
+        function(res) {
+          console.log(res)
+        }
+      )
+    </script>
+  </body>
+</html>
