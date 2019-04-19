@@ -85,30 +85,26 @@ function Right() {
           项目经验
         </h1>
         <p>
-          <h3>2018.06—— clicli弹幕网（c站） 个人项目</h3>
+          <h3>2018.06—— 某弹幕网（哗） 个人项目</h3>
           <ul>
             <li>全栈，B 端 vue ，C 端 react，后端 golang + node</li>
             <li>我的开源项目 smox、fre、ep 等，都得到了大规模应用</li>
+            <li>难点：前端主要是 vue ssr 和 播放器（弹幕系统）</li>
+            <li>重点：代码质量</li>
           </ul>
         </p>
         <p>
           <h3>2017.06——2017.08 北京无维科技 web 前端</h3>
           <ul>
             <li>vue 栈，负责开发《微信编辑器》，参考有赞、秀米</li>
-          </ul>
-        </p>
-        <p>
-          <h3>2018.06——2018.08 北京呈天游戏 web 前端</h3>
-          <ul>
-            <li>react 栈，负责 pwa 相关</li>
-            <li>窝的开源项目 smox 得到应用，配合重构，使原项目更易维护</li>
+            <li>难点：类似场景的设计思路</li>
           </ul>
         </p>
       </section>
       <section class="section">
         <h1>
           <i class="iconfont icon-github" />
-          开源贡献
+          开源项目
         </h1>
         <p>
           <h3>fre.js - 又一个小而美的前端 AOP 框架</h3>
@@ -118,6 +114,8 @@ function Right() {
               世上少有的 fiber 调度的框架，fre 的 fiber 实现也是最小而美的
             </li>
             <li>您现在所看到的简历，就是基于 fre 构建的</li>
+
+            <li>难点：fiber 的实现和 hooks 是如何在 fiber 上运作的</li>
           </ul>
         </p>
         <p>
@@ -125,7 +123,8 @@ function Right() {
           <ul>
             <li>smox 是 react 状态管理顶级设计，它的封装极为精巧却强大</li>
             <li>独创 path 机制，能够精准、最小的更新状态</li>
-            <li>支持微信小程序 setData 时传入的 path</li>
+            
+            <li>难点：path 机制和命中匹配的思路（感兴趣的话可以看<a href="https://github.com/132yse/smox/issues/20">这篇</a>）</li>
           </ul>
         </p>
         <p>
@@ -136,6 +135,19 @@ function Right() {
               天生自带 shadow-dom 和 scoped
               css，可以使得播放器接入网站而不受外界环境干扰
             </li>
+
+            <li>难点：可能就是 web-component 的一些不为人知的，比如穿透 scoped css</li>
+          </ul>
+        </p>
+        <p>
+          <h3>use-routes - 适用于 fre 和 react 的 hooks 版本路由</h3>
+          <ul>
+            <li>为 hooks 而生，同时适用于 fre 和 react</li>
+            <li>
+              800 B ，但却提供了路由常见的 API，利用了一个巧妙的排位，去匹配 url
+            </li>
+
+            <li>难点：可能是路由的设计思路，区别于 react-router 和 vue-router</li>
           </ul>
         </p>
       </section>
@@ -168,14 +180,11 @@ function Right() {
         <ul class="common">
           <li>
             <span>热爱开源</span>
-            ，喜欢前端基础建设，也一直为此而努力，同时写大量业务支撑基建
+            ，喜欢写一些前端工具，也一直为此而努力，同时写大量业务支撑
           </li>
           <li>
             性格上比较脱线，还不够严谨，仍需不断修炼。但对待技术认真，有靠谱的判断力，会
             <span>按需</span>做出妥协与调整
-          </li>
-          <li>
-            我不太爱钱，有超强的<span>熬夜</span>能力
           </li>
         </ul>
       </section>
