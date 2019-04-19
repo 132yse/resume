@@ -87,8 +87,8 @@ function Right() {
         <p>
           <h3>2018.06—— 某弹幕网（哗） 个人项目</h3>
           <ul>
-            <li>全栈，B 端 vue ，C 端 react，后端 golang + node</li>
-            <li>我的开源项目 smox、fre、ep 等，都得到了大规模应用</li>
+            <li>全栈，vue / react / ssr / node / golang</li>
+            <li>vue，主要是 vue ssr；react 主要是 smox；node 主要负责解析系统；golang 主要是后端 API</li>
             <li><span>难点：前端主要是 vue ssr 和 播放器（+弹幕系统）</span></li>
           </ul>
         </p>
