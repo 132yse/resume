@@ -89,15 +89,14 @@ function Right() {
           <ul>
             <li>全栈，B 端 vue ，C 端 react，后端 golang + node</li>
             <li>我的开源项目 smox、fre、ep 等，都得到了大规模应用</li>
-            <li>难点：前端主要是 vue ssr 和 播放器（弹幕系统）</li>
-            <li>重点：代码质量</li>
+            <li><span>难点：前端主要是 vue ssr 和 播放器（+弹幕系统）</span></li>
           </ul>
         </p>
         <p>
           <h3>2017.06——2017.08 北京无维科技 web 前端</h3>
           <ul>
             <li>vue 栈，负责开发《微信编辑器》，参考有赞、秀米</li>
-            <li>难点：类似场景的设计思路</li>
+            <li><span>难点：类似场景的设计思路</span></li>
           </ul>
         </p>
       </section>
@@ -115,7 +114,7 @@ function Right() {
             </li>
             <li>您现在所看到的简历，就是基于 fre 构建的</li>
 
-            <li>难点：fiber 的实现和 hooks 是如何在 fiber 上运作的</li>
+            <li><span>难点：fiber 的实现和 hooks 是如何在 fiber 上运作的</span></li>
           </ul>
         </p>
         <p>
@@ -124,19 +123,19 @@ function Right() {
             <li>smox 是 react 状态管理顶级设计，它的封装极为精巧却强大</li>
             <li>独创 path 机制，能够精准、最小的更新状态</li>
             
-            <li>难点：path 机制和命中匹配的思路（感兴趣的话可以看<a href="https://github.com/132yse/smox/issues/20">这篇</a>）</li>
+            <li><span>难点：path 机制和命中匹配的思路（感兴趣的话可以看<a href="https://github.com/132yse/smox/issues/20">这篇</a>）</span></li>
           </ul>
         </p>
         <p>
           <h3>eplayer - 面向未来的视频播放器</h3>
           <ul>
-            <li>eplayer 是基于 web-component 的视频播放器</li>
+            <li>基于 web-component 的 runtime，可以理解为浏览器自带的 vue</li>
             <li>
               天生自带 shadow-dom 和 scoped
               css，可以使得播放器接入网站而不受外界环境干扰
             </li>
 
-            <li>难点：可能就是 web-component 的一些不为人知的，比如穿透 scoped css</li>
+            <li><span>难点：可能就是 web-component 的一些不为人知的，比如穿透 scoped css</span></li>
           </ul>
         </p>
         <p>
@@ -144,10 +143,10 @@ function Right() {
           <ul>
             <li>为 hooks 而生，同时适用于 fre 和 react</li>
             <li>
-              800 B ，但却提供了路由常见的 API，利用了一个巧妙的排位，去匹配 url
+              800 B ，但却提供了路由常见的 API，利用了一个巧妙的正则排位，去匹配 url
             </li>
 
-            <li>难点：可能是路由的设计思路，区别于 react-router 和 vue-router</li>
+            <li><span>难点：可能是路由的设计思路，区别于 react-router 和 vue-router</span></li>
           </ul>
         </p>
       </section>

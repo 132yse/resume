@@ -5,6 +5,13 @@
 li {
   list-style: none;
 }
+span a {
+  background: #465b86;
+  color: #fff;
+  border-radius: 10px 0 10px 0;
+  padding: 2px 15px;
+  text-decoration: none
+}
 body {
   background: #808895;
   font: 14px 黑体;
@@ -89,7 +96,7 @@ section li {
   margin-left: 10px;
 }
 
-.common li span {
+li span {
   font-weight: bold;
   color: #465b86;
 }
@@ -107,7 +114,7 @@ section li {
   border-radius: 10px 0 10px 0;
 }
 
-.link li{
+.link li {
   padding: 10px;
   display: flex;
   align-items: center;
@@ -115,20 +122,20 @@ section li {
 }
 
 .link a {
-  text-decoration:none ;
+  text-decoration: none;
   border-bottom: 2px dashed #465b86;
   color: #465b86;
-  padding: 5px 0
+  padding: 5px 0;
 }
-.link ul{
-  margin-top: 30px
+.link ul {
+  margin-top: 30px;
 }
 
-.link .iconfont{
+.link .iconfont {
   font-size: 40px;
   height: 42px;
   width: 40px;
   background: none;
-  margin-left:-10px;
-  color: #465b86
+  margin-left: -10px;
+  color: #465b86;
 }
