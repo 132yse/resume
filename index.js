@@ -85,18 +85,27 @@ function Right() {
           项目经验
         </h1>
         <p>
-          <h3>2018.06—— 某弹幕网（哗） 个人项目</h3>
+          <h3>2019.06—— 搜狐体育小程序</h3>
+          <ul>
+            <li>前端主程，fard / fre</li>
+            <li>使用 fard 开发体育小程序，同时完善 fard</li>
+            <li><span>难点：多端小程序 api 的抹平问题</span></li>
+          </ul>
+        </p>
+        <p>
+          <h3>2019.06—— 新版搜狐首页</h3>
+          <ul>
+            <li>前端主程，react / ssr</li>
+            <li>主要是 react 开发新版搜狐首页，其中 slider 等原生组件被搜狐多个项目复用</li>
+            <li><span>难点：react ssr 和 ie8 兼容</span></li>
+          </ul>
+        </p>
+        <p>
+          <h3>2018.06—— clicli弹幕网（clicli.us）</h3>
           <ul>
             <li>全栈，vue / react / ssr / node / golang</li>
             <li>vue，主要是 vue ssr；react 主要是 smox；node 主要负责解析系统；golang 主要是后端 API</li>
             <li><span>难点：前端主要是 vue ssr 和 播放器（+弹幕系统）</span></li>
-          </ul>
-        </p>
-        <p>
-          <h3>2017.06——2017.08 北京无维科技 web 前端</h3>
-          <ul>
-            <li>vue 栈，负责开发《微信编辑器》，参考有赞、秀米</li>
-            <li><span>难点：类似场景的设计思路</span></li>
           </ul>
         </p>
       </section>
@@ -106,15 +115,20 @@ function Right() {
           开源项目
         </h1>
         <p>
-          <h3>fre.js - 又一个小而美的前端 AOP 框架</h3>
+          <h3>fre.js - 1kb react16 like 框架</h3>
           <ul>
-            <li>受 react hooks API 启发，fre 是只有 hooks 的 AOP 框架</li>
-            <li>
-              世上少有的 fiber 调度的框架，fre 的 fiber 实现也是最小而美的
-            </li>
-            <li>您现在所看到的简历，就是基于 fre 构建的</li>
+            <li>使用 300 行复现了 react fiber 架构，同时拥有更精巧的抽象机制</li>
+            <li>你现在所看到的简历，就是基于 fre 构建的</li>
 
-            <li><span>难点：fiber 的实现和 hooks 是如何在 fiber 上运作的</span></li>
+            <li><span>难点：fiber 的实现和 hooks 是如何在 fiber 上运作的，以及如何设计抽象层，使跨端成为可能</span></li>
+          </ul>
+        </p>
+        <p>
+          <h3>fard.js - fre 转多端小程序框架</h3>
+          <ul>
+            <li>类似于 RN 的原理，使得小程序中跑 fre 而不需要编译</li>
+            <li>在 seData 之前做一层 diff，保证每次 setData 的量都是最小的，从而大幅度优化性能</li>
+            <li><span>难点：整个架构设计的思路，性能优化的思路</span></li>
           </ul>
         </p>
         <p>
@@ -123,7 +137,7 @@ function Right() {
             <li>smox 是 react 状态管理顶级设计，它的封装极为精巧却强大</li>
             <li>独创 path 机制，能够精准、最小的更新状态</li>
             
-            <li><span>难点：path 机制和命中匹配的思路（感兴趣的话可以看<a href="https://github.com/132yse/smox/issues/20">这篇</a>）</span></li>
+            <li><span>难点：path 机制和命中匹配的思路</span></li>
           </ul>
         </p>
         <p>
@@ -135,7 +149,7 @@ function Right() {
               css，可以使得播放器接入网站而不受外界环境干扰
             </li>
 
-            <li><span>难点：可能就是 web-component 的一些不为人知的，比如穿透 scoped css</span></li>
+            <li><span>难点：可能就是 web-component 的一些不为人知的，比如如何穿透 scoped css</span></li>
           </ul>
         </p>
         <p>
@@ -143,10 +157,10 @@ function Right() {
           <ul>
             <li>为 hooks 而生，同时适用于 fre 和 react</li>
             <li>
-              800 B ，但却提供了路由常见的 API，利用了一个巧妙的正则排位，去匹配 url
+              800 B ，但却提供了路由常见的 API，利用了一个巧妙的正则排位算法，去匹配 url
             </li>
 
-            <li><span>难点：可能是路由的设计思路，区别于 react-router 和 vue-router</span></li>
+            <li><span>难点：可能是 hooks 中路由的设计思路</span></li>
           </ul>
         </p>
       </section>
@@ -163,7 +177,7 @@ function Right() {
             <span>设计：</span>熟练使用 ps、ae、maya 等设计软件
           </li>
           <li>
-            <span>源码：</span>熟悉 preact 源码，了解 vue、react 部分源码
+            <span>源码：</span>熟悉很多前端库的源码
           </li>
           <li>
             <span>开源：</span>参与
@@ -179,10 +193,10 @@ function Right() {
         <ul class="common">
           <li>
             <span>热爱开源</span>
-            ，喜欢写一些前端工具，也一直为此而努力，同时写大量业务支撑
+            ，喜欢将自己的脑洞通过代码实现出来，开源的每一个轮子都有设计上的独到之处
           </li>
           <li>
-            性格上比较脱线，还不够严谨，仍需不断修炼。但对待技术认真，有靠谱的判断力，会
+            性格上比较脱线，不够严谨，仍需不断修炼。但对待技术认真，有靠谱的判断力，会
             <span>按需</span>做出妥协与调整
           </li>
         </ul>
